@@ -10,7 +10,10 @@ function App() {
   const fetchItems = async () => {
     const res = await axios.get("http://localhost:5000/api/items");
     setItems(res.data);
+    
   };
+ 
+
 
   useEffect(() => {
     fetchItems();
