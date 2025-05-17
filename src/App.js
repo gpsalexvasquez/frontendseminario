@@ -1,10 +1,14 @@
 import React from 'react';
-import VerFrases from './components/VerFrases';
+import ListaConEliminar from './ListaConEliminar';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <VerFrases />
+      <h1>Proyecto de Eliminar Ítem</h1>
+      <ListaConEliminar />
     </div>
   );
 }
