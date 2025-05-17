@@ -14,6 +14,8 @@ function App() {
       return;
     }
 
+
+    
     try {
       const response = await fetch(`http://localhost:3000/frases/${id}`, {
         method: 'PUT',
